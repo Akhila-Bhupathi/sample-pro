@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <div class="container-1">
+        <h1>
+            Challenge-1: Calculating age in days
+        </h1>
+
+        <div class="flex-box-1">
+            <button class="btn btn-primary" onclick="ageInDays()">Click me </button>
+            <button class="btn btn-danger" onclick="reset()">Reset</button>
+        </div>
+        <div class="flex-box-1">
+            <div id="flex-result">
+
+            </div>
+        </div>
+    </div>
+    <div class="container-1">
+        <h1>Challenge 2:Generating cats</h1>
+        <button class="btn btn-success" onclick="generate()">Generate cat</button>
+
+        <div class="flex-box-2" id="flex-box-gen">
+        </div>
+    </div>
+
+    <div class="container-3">
+        <h1>Challenge 3: Rock, Paper, Scissors</h1>
+        <div class="flex-box-3" id="flex-box-rps-div">
+        <img src="static/images/rock.jpg" height=150 width=150 id="rock" onclick="rpsGame(this)">
+        <img src="static/images/paper.jpg" height=150 width=150 id="paper" onclick="rpsGame(this)">
+        <img src="static/images/sci2.png" height=150 width=150 id="scissors" onclick="rpsGame(this)">
+    </div>
+    </div>
+
+    <script src="static/script.js"></script>
+</body>
+
+</html>
